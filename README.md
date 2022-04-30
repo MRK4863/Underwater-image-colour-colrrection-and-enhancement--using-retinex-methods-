@@ -9,4 +9,22 @@ The previous work presented in the publication have tried to address the enhance
 
 The main motivation for undertaking this project was to understand and implement actually useful image processing techniques for coloured images that were, previously, unexperienced. The original publication, however, had missing details regarding the retinex enhancement technique, that allowed us to delve into its details and pre-process the raw images correctly before actually using them as input. During the course of the implementation, it was extremely vital to understand, in detail, the requirements and results of each of the steps along with the intermediate data types being used to do the different kinds of processing. Figuring out the suitable compatibility of the steps' outputs and inputs was time consuming and at the same instant,  pivotal in the successful implementation of the algorithm.
 The implementation requires certain parameters that will depend on the image at hand. An example of this is the $\alpha$ parameter of the red channel compensation which will vary with images depending on the green or blue channel contributions in the original image. The further scope of this project includes extending the current implementation for automating tuning of these parameters. The algorithm consumes a considerable time for retinex computation on a single image. This provides ground for improvement of the computational efficiency as well.
-}
+
+### Stage-wise results obtained
+Raw image
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/1_raw_img_8_FRANKLE.png" alt="Raw image" style="height: 100px; width:100px;"/>
+
+Red-channel compensation
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" style="height: 100px; width:100px;"/>
+
+White balancing
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" style="height: 100px; width:100px;"/>
+
+Retinex for improving illumination
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/4_img_retinex_rgb_8_FRANKLE.png" alt="Retinex" style="height: 100px; width:100px;"/>
+
+Histogram Equalization
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/5_histeq_img_8_FRANKLE.png" alt="Histogram Equalization" style="height: 100px; width:100px;"/>
+
+Disclaimer:
+This is an implementation of this orginal paper: https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/READING_AND_REFERENCE_MATERIALS/BASE_PAPER.pdf
