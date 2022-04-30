@@ -12,19 +12,20 @@ The implementation requires certain parameters that will depend on the image at 
 
 ### Stage-wise results obtained
 Raw image
-<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/1_raw_img_8_FRANKLE.png" alt="Raw image" style="height: 100px; width:100px;"/>
+
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/1_raw_img_8_FRANKLE.png" alt="Raw image" />
 
 Red-channel compensation
-<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" style="height: 100px; width:100px;"/>
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" />
 
 White balancing
-<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" style="height: 100px; width:100px;"/>
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" />
 
 Retinex for improving illumination
-<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/4_img_retinex_rgb_8_FRANKLE.png" alt="Retinex" style="height: 100px; width:100px;"/>
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/4_img_retinex_rgb_8_FRANKLE.png" alt="Retinex" />
 
 Histogram Equalization
-<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/5_histeq_img_8_FRANKLE.png" alt="Histogram Equalization" style="height: 100px; width:100px;"/>
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/5_histeq_img_8_FRANKLE.png" alt="Histogram Equalization" />
 
 Disclaimer:
 This is an implementation of this orginal paper: https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/READING_AND_REFERENCE_MATERIALS/BASE_PAPER.pdf
