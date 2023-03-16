@@ -14,7 +14,7 @@ The implementation requires certain parameters that will depend on the image at 
 ### Stage-wise results obtained
 Raw image
 
-<img src = "./IMAGE_RESULTS/1_raw_img_8_FRANKLE.png" alt="Raw image" />
+<img src = "IMAGE_RESULTS/1_raw_img_8_FRANKLE.png" alt="Raw image" />
 
 Red-channel compensation
 <img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" />
