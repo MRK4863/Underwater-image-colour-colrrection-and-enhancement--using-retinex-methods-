@@ -1,4 +1,5 @@
-# Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-
+# Underwater image colour correction and enhancement using retinex methods 
+
 Images captured under water, for various applications including ocean exploration, are heavily degraded due to low visibility and scattering. This causes the red channel to attenuate and the image losing overall illumination. The degradation is more pronounced as the depth of exploration is increased. This project aims at replicating and implementing a color correction algorithm described in a publication that claims to give the best performance of all the algorithms they tested alongside their own. The algorithm cleverly relies on the property of the cameras using Color Filter Array (CFA) to capture images in RGB space that the 3 channels obtained for each pixel are dependent and coupled because of the interpolation process. The reason and the origin of this phenomenon is discussed in detail in the methodologies. This dependence is used to compensate the attenuated red channels of the image. Further enhancement is carried out for improved illumination across the image using a Retinex model. 
 The contrast of the degraded image is improved using a piecewise linear adaptive histogram equalisation, thus obtaining a much better image overall. The project finally concludes by testing the various metrics of performance on the implementation over various images. The complete credit for the algorithm goes to the original publication and this project is just an attempted implementation.\\
 
@@ -13,7 +14,7 @@ The implementation requires certain parameters that will depend on the image at 
 ### Stage-wise results obtained
 Raw image
 
-<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/1_raw_img_8_FRANKLE.png" alt="Raw image" />
+<img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/fa06e3e168aedd368b97ce0cefecd3b288a09ee4/IMAGE_RESULTS/1_raw_img_8_FRANKLE.png" alt="Raw image" />
 
 Red-channel compensation
 <img src="https://github.com/MRK4863/Underwater-image-colour-colrrection-and-enhancement--using-retinex-methods-/blob/main/IMAGE_RESULTS/2_red_channel_8_FRANKLE.png" alt="Red-channel compensation" />
